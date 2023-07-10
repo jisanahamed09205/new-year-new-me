@@ -1,0 +1,197 @@
+/* common shared styles */
+body{
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+.header-content{
+    display: flex;
+    width: 525px;
+    flex-direction: column;
+    padding:160px 880px;
+    align-items: center;
+    text-align: right;
+    justify-content: space-between;
+}
+.btn-primary{
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    color: #005FAC;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* header related styles */
+.header{
+    background-image: url(../new-year-new-me-main/images/banner/banner3.png);
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 808px;
+}
+.profile-pic{
+    width: 400px;
+    height: 400px;
+    border-radius: 500px;
+    background: rgba(241, 93, 34, 0.075);
+}
+.header-title{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 65px;
+    font-weight: 700;
+    text-align: right;
+}
+.header-description{
+    color: #FFF;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+/* main section related */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+}
+/* section related style */
+.section-title{
+    color:#151414;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.about-info-container.about-info-container{
+    padding:30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-title{
+    color:#151414;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+}
+.about-description{
+        color: var(--dark-02, #444343);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.about-list{
+    color: var(--dark-02, #444343);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.plans-container{
+    display: flex;
+    gap: 24px;
+}
+.plans{
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+}
+.plans-title{
+    color:#151414;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 30px;
+    font-weight: 700;
+}
+.plans-info{
+    color:#737272;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 500;
+}
+.bottom{
+    background-image: url(../new-year-new-me-main/images/gradient1.png),url(../new-year-new-me-main/images/watch.png);
+    width:1140px ;
+    height: 300px;
+    border-radius: 8px;
+}
+.bottom-content{
+    display: flex;
+    width: 525px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottom-title{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+}
+/* footer related style */
+footer{
+    gap: 100px;
+    display: flex;
+    background:#151414;
+    margin-top: 100px;
+    padding: 130px 200px;
+}
+.future-title{
+    color: #F8F8F8;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+}
+.future-description{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.email-phn{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.sub-title{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 600;
+}
+.sub-btn{
+    border-radius: 8px;
+    background: #005FAC;
+    width: 170.106px;
+    height: 64px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+}
+#email-id{
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    width: 325px;
+    height: 64px;
+    background-color: #151414;
+
+}
+.footer-column{
+    width: 50%;
+}
+input::placeholder {
+    font-weight: bold;
+    color: #FFF;
+}
