@@ -1,27 +1,37 @@
 /* common shared styles */
-body{
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 li{
     list-style: none;
 }
-.header-content{
-    display: flex;
-    width: 525px;
-    flex-direction: column;
-    padding:160px 880px;
-    align-items: center;
+h1 {
+    color: #fff;
     text-align: right;
-    justify-content: space-between;
+    font-size: 65px;
+    font-weight: 700;
+    width: 525px;
+    font-family: Work Sans;
+}
+.col1{
+    width: 525px;
+}
+.col2 {
+    width: 525px;
+    text-align: right;
 }
 .btn-primary{
+    font-family: Work Sans;
     width: 160px;
     height: 64px;
     border-radius: 5px;
     color: #005FAC;
-    font-family: Work Sans;
     font-size: 20px;
     font-weight: 600;
+    padding: 20px 25px;
+    border: 0;
 }
 /* header related styles */
 .header{
@@ -29,6 +39,18 @@ li{
     background-repeat: no-repeat;
     width: 1600px;
     height: 808px;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1600px;
+    margin-bottom: 140px;
 }
 .profile-pic{
     width: 400px;
@@ -36,20 +58,22 @@ li{
     border-radius: 500px;
     background: rgba(241, 93, 34, 0.075);
 }
-.header-title{
+/* .header-title{
     color: #FFF;
     font-family: Work Sans;
+    text-align: right;
     font-size: 65px;
     font-weight: 700;
-    text-align: right;
-}
-.header-description{
-    color: #FFF;
-    text-align: right;
+    width: 525px;
+} */
+.col2 p {
+    color: #fff;
     font-family: Work Sans;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
+    margin-bottom: 32px;
+    margin-top: 24px;
 }
 /* main section related */
 main{
